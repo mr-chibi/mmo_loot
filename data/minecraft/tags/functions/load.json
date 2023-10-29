@@ -1,6 +1,5 @@
 {
 	"values": [
-		"mmo_loot:reload",
-		"mmo_loot:timer"
+		"mmo_loot:reload"
 	]
 }
