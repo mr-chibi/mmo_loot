@@ -1,0 +1,14 @@
+{
+	"values": [
+		//
+		"mmo_loot:admin/marker/respawn_block/tags/blocks/logs",
+		"mmo_loot:admin/marker/respawn_block/tags/blocks/wood",
+		"mmo_loot:admin/marker/respawn_block/tags/blocks/stripped_logs",
+		"mmo_loot:admin/marker/respawn_block/tags/blocks/stripped_wood",
+
+		//
+		"mmo_loot:admin/marker/respawn_block/tags/blocks/ores",
+		"mmo_loot:admin/marker/respawn_block/tags/blocks/deepslate_ores",
+		"mmo_loot:admin/marker/respawn_block/tags/blocks/nether_ores"
+	]
+}
