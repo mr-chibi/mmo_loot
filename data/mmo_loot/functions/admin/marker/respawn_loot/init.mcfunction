@@ -4,8 +4,8 @@ execute if entity @a[distance=0..5,team=!mmo_admin] run data modify block ~ ~ ~ 
 # Randomize Loot:
 execute as @s[tag=!stop_random] if block ~ ~ ~ #mmo_loot:loot_block run function mmo_loot:admin/marker/randomizer/init
 
-# Remove Randomizer:
-function mmo_loot:admin/marker/randomizer/remove
+#
+execute if block ~ ~ ~ #mmo_loot:loot_block run function mmo_loot:admin/marker/randomizer/remove
 
 # Display Particles:
 execute if entity @a[distance=0..5,team=mmo_admin] run function mmo_loot:admin/marker/respawn_loot/particles
