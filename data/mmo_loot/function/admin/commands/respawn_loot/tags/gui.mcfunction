@@ -1,4 +1,0 @@
-# Toggle GUI in chat when player right clicks:
-execute anchored eyes positioned ^ ^ ^2 if block ~ ~ ~ #mmo_loot:loot_block as @e[type=minecraft:marker,tag=mmo_respawn_loot,distance=0..1,sort=nearest,limit=1] at @s[tag=!mmo_loot_editor] run function mmo_loot:admin/marker/respawn_loot/nbt
-execute anchored eyes positioned ^ ^ ^3 if block ~ ~ ~ #mmo_loot:loot_block as @e[type=minecraft:marker,tag=mmo_respawn_loot,distance=0..1,sort=nearest,limit=1] at @s[tag=!mmo_loot_editor] run function mmo_loot:admin/marker/respawn_loot/nbt
-execute anchored eyes positioned ^ ^ ^4 if block ~ ~ ~ #mmo_loot:loot_block as @e[type=minecraft:marker,tag=mmo_respawn_loot,distance=0..1,sort=nearest,limit=1] at @s[tag=!mmo_loot_editor] run function mmo_loot:admin/marker/respawn_loot/nbt

@@ -1,5 +1,5 @@
-# If Player is "NOT" Admin run "Admin" functions:
-execute as @s[team=mmo_admin] run function mmo_loot:admin/init
+# Admin Commands:
+execute if entity @s[team=mmo_admin] run function mmo_loot:commands/init
 
-# If Player is "NOT" Admin run "public" functions:
-execute as @s[team=!mmo_admin] run function mmo_loot:public/init
+# Player's Aren't / Are apart of "mmo_admin":
+function mmo_loot_engine:init

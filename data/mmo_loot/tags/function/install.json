@@ -1,6 +1,6 @@
 {
 	"values": [
-		"mmo_loot:admin/scoreboards/multiplayer/addons",
-		"mmo_loot:admin/scoreboards/install"
+		"mmo_loot:scoreboards/multiplayer/addons",
+		"mmo_loot:scoreboards/install"
 	]
 }
